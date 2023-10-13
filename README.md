@@ -8,9 +8,9 @@ Just doing some exercises in my computer engineering class.
 This project helps me practice writing some simple C++ programs.
 
 ### 3/ How users can get started with the project?
-_Read docx files.
-_Do all exercises.
+_Read docx files.<br/>
+_Do all exercises.<br/>
 _Check out my codes and compare mine with yours.
 
-### 4/ Who maintains and contributes to the project?
+### 4/ Who maintains to the project?
 No one. This project doesn't need to be maintained.
