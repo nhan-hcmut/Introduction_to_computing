@@ -3,22 +3,22 @@ using namespace std;
 
 int main() {
 
-    int first_num, second_num, more;
+    float x, y, max;
 
     cout << "Enter the first number: ";
-    cin >> first_num;
+    cin >> x;
     
     cout << "Enter the second number: ";
-    cin >> second_num;
+    cin >> y;
 
-    if (first_num > second_num) {
-        more = first_num;
+    if (x > y) {
+        max = x;
     }
     else {
-        more = second_num;
+        max = y;
     }
 
-    cout << "The larger number is " << more;
+    cout << "The larger number is " << max;
 
     return 0;
 }
