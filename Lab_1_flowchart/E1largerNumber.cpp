@@ -3,15 +3,22 @@ using namespace std;
 
 int main() {
 
-    int a,b,m;
+    int first_num, second_num, more;
 
-    cout<<"Nhap so thu nhat: "; cin>>a;
-    cout<<"Nhap so thu hai: "; cin>>b;
+    cout << "Enter the first number: ";
+    cin >> first_num;
+    
+    cout << "Enter the second number: ";
+    cin >> second_num;
 
-    if (a>b) m=a;
-    else m=b;
+    if (first_num > second_num) {
+        more = first_num;
+    }
+    else {
+        more = second_num;
+    }
 
-    cout<<"So lon hon la "<<m;
+    cout << "The larger number is " << more;
 
     return 0;
 }
