@@ -11,6 +11,3 @@ This project helps me practice writing some simple C++ programs.
 + Read docx files.<br/>
 + Do all exercises.<br/>
 + Check out my codes and compare mine with yours.
-
-### 4/ Who maintains the project?
-No one. This project doesn't need to be maintained.
