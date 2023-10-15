@@ -19,7 +19,10 @@ int main() {
         cout << "There are no real roots.";
     }
     else if (delta == 0) {
-        cout << "Root = " << -b / (2*a);
+
+        if ((-b / (2*a)) == 0) cout << "Root = 0"; // Remove the output "Root = -0"
+
+        else cout << "Root = " << -b / (2*a);
     }
     else {
         root1 = (-b + sqrt(delta)) / (2*a);
