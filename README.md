@@ -8,6 +8,6 @@ Just doing some exercises in my computer engineering class.
 This project helps me practice writing some simple C++ programs.
 
 ### 3/ How users can get started with the project?
-+ Read docx files.<br/>
++ Read docx or pdf files.<br/>
 + Do all exercises.<br/>
 + Check out my codes and compare mine with yours.
