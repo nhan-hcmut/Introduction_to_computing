@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-
-    float xa, ya; // Coordinate of point A
+	
+	float xa, ya; // Coordinate of point A
 	float xb, yb; // Coordinate of point B
 	float distance;
 
