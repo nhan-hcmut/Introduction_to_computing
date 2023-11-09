@@ -5,7 +5,7 @@ int main() {
 
     int n, positive=0, negative=0;
     float num;
-    bool zero=false;
+    bool zero=false; // There is/are the number(s) zero(s) or not
 
     cout << "How many real numbers: ";
     cin >> n;
@@ -22,8 +22,9 @@ int main() {
         else zero=true;
     }
     
-    cout << "There are " << negative << " negative numbers and " << positive << " positive numbers.\n"
-    << "There is/are number(s) zero(s).";
+    cout << "There are " << negative << " negative numbers and " << positive << " positive numbers.\n";
+    
+    if (zero == true) cout << "There is/are number(s) zero(s).";
     
     return 0;
 }
