@@ -15,7 +15,7 @@ int main () {
     }
     
     for (i=0; i<5; i++) {
-        cout << i+1 << "\t" << "Hour rate = " << hourly_rates[i] << ", " << "working hour = " << working_hours[i] << " , wage = " << wages[i] << endl << endl;
+        cout << i+1 << "\t" << "Hour rate = " << hourly_rates[i] << ", " << "working hour = " << working_hours[i] << ", wage = " << wages[i] << endl << endl;
     }
     return 0;
 }
