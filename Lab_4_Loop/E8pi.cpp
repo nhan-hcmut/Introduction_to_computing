@@ -6,7 +6,7 @@ int main() {
 
     long long n=0;
 
-    double sign, pi, addend, sum=0;
+    double sign = 0, pi = 0, addend = 0, sum = 0;
 
     do {
         
