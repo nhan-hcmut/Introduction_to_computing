@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    float a, b, c, delta, root1, root2;
+    float a = 0, b = 0, c = 0, delta = 0, root1 = 0, root2 = 0;
 
     cout << "a: ";
     cin >> a;
