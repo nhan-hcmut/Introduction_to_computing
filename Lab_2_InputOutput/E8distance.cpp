@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 	
-	float xa, ya; // Coordinate of point A
-	float xb, yb; // Coordinate of point B
-	float distance;
+	float xa = 0, ya = 0; // Coordinate of point A
+	float xb = 0, yb = 0; // Coordinate of point B
+	float distance = 0;
 
     cout << "Enter coordinate of point A" << endl;
     
@@ -26,7 +26,7 @@ int main() {
     
     distance = sqrt((xa-xb)*(xa-xb) + (ya-yb)*(ya-yb));
     
-    cout << "Distance: " << distance;
+    cout << "Distance: " << distance << endl;
 
     return 0;
 }
