@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    float r, distance, x0, y0, x, y; // Center O (x0, y0), point A (x, y)
+    float r = 0, distance = 0, x0 = 0, y0 = 0, x = 0, y = 0; // Center O (x0, y0), point A (x, y)
 
     cout << "Point A" << endl;
     cout << "x: ";
