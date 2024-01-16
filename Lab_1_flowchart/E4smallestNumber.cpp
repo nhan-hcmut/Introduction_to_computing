@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    float first_num, second_num, third_num, min;
+    float first_num = 0, second_num = 0, third_num = 0, min = 0;
 
     cout << "The first number: ";
     cin >> first_num;
