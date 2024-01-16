@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    float a, b, c, d, e, f, x, y;
+    float a = 0, b = 0, c = 0, d = 0, e = 0, f = 0, x = 0, y = 0;
 
     cout << "Equation system ax + by = c & dx + ey = f" << endl;
     
