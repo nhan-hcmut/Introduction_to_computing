@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    float edge1, edge2, edge3;
+    float edge1 = 0, edge2 = 0, edge3 = 0;
 
     cout << "The first edge: ";
     cin >> edge1;
