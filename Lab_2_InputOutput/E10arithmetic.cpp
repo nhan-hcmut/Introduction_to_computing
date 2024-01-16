@@ -15,12 +15,12 @@ int main() {
     addition = num1+num2;
     subtraction = num1-num2;
     multiplication = num1*num2;
-    division = float(num1) / float(num2);
+    division = (float)num1 / (float)num2;
 
     cout << "Sum: " << addition << endl;
     cout << "Difference: " << subtraction << endl;
     cout << "Product: " << multiplication << endl;
-    cout << "Quotient: " << division;
+    cout << "Quotient: " << division << endl;
     
     return 0;
 }
