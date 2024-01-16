@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    float r, d, p, s;
+    float r = 0, d = 0, p = 0, s = 0;
 
     cout << "Radius: ";
     cin >> r;
