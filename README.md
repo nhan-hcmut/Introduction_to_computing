@@ -1,13 +1,13 @@
-#Introduction_to_computing
-##Introduction to computing (CO1005) - HCMUT - Semester 1 / Academic year 2022->2023 (HK221)
+# Introduction_to_computing
+## Introduction to computing (CO1005) - HCMUT - Semester 1 / Academic year 2022->2023 (HK221)
 
-###1/ What does this project do?
+### 1/ What does this project do?
 Doing some exercises in my computer engineering class.
 
-###2/ Why is this project useful?
+### 2/ Why is this project useful?
 This project helps me practice writing some simple C++ programs.
 
-###3/ How can users get started with this project?
+### 3/ How can users get started with this project?
 + Read docx or pdf files.<br/>
 + Do all exercises.<br/>
 + Check out my codes and compare mine with yours.
