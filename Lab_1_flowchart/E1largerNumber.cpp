@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    float x, y, max;
+    float x = 0, y = 0, max = 0;
 
     cout << "Enter the first number: ";
     cin >> x;
