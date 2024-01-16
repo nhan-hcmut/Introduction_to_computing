@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    float average = 0, grade;
+    float average = 0, grade = 0;
     int i = 1;
 
     while (i <= 4) {
