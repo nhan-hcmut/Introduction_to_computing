@@ -5,8 +5,8 @@ using namespace std;
 
 int main () {
 
-    string name, sex;
-    int age, height, weight;
+    string name = "", sex = "";
+    int age = 0, height = 0, weight = 0;
 
     cout << "Name: ";
     cin >> name;
@@ -24,7 +24,7 @@ int main () {
     cin >> weight;
 
     cout << "\nName\t" << "Sex\t" << "Height\t" << "Weight\n";
-    cout << name << "\t" << sex << "\t" << height << "\t" << weight;
+    cout << name << "\t" << sex << "\t" << height << "\t" << weight << endl;
     
     return 0;
 }
