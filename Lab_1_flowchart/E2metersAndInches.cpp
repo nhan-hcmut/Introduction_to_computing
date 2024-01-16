@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
 
-    float a, m, inc;
-    int sel;
+    float a = 0, m = 0, inc = 0;
+    int sel = 0;
 
     cout << "Press 1: Inches to meters" << endl
     << "Press another number: Meters to inches" << endl
