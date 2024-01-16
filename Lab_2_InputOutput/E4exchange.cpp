@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    int a, b, temp;
+    int a = 0, b = 0, temp = 0;
 
     cout << "a: ";
     cin >> a;
@@ -17,7 +17,7 @@ int main() {
 
     cout << "After exchanging\n" <<
     "a = " << a << endl
-    << "b = " << b;
+    << "b = " << b << endl;
 
     return 0;
 }
