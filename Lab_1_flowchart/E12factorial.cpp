@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 
     long long factorial = 1; // Limit: factorial of 20. When the input is 21, the output will be a negative number.
-    int num;
+    int num = 0;
 
     cout << "Enter input: ";
     cin >> num;
@@ -13,6 +13,6 @@ int main() {
         factorial *= i;
     }
 
-    cout << num << "! = " << factorial;
+    cout << num << "! = " << factorial << endl;
     return 0;
 }
