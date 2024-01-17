@@ -4,8 +4,8 @@ using namespace std;
 
 int main() {
 
-    int n;
-    float num;
+    int n = 0;
+    float num = 0;
     float largest = numeric_limits<float>::lowest(); // Assign the lowest possible value
 
     cout << "How many real numbers: ";
@@ -21,7 +21,7 @@ int main() {
         }
     }
 
-    cout << "The largest number: " << largest;
+    cout << "The largest number: " << largest << endl;
 
     return 0;
 }
