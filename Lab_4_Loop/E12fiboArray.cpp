@@ -3,14 +3,14 @@ using namespace std;
 
 int main () {
 
-    int size;
+    int size = 0;
 
     cout << "How many Fibonacci numbers: ";
     cin >> size;
 
     int* F = new int[size+1];
 
-    F[0] = NULL; // F[i] will store the ith number in Fibonacci sequence => THERE IS NO F[0]
+    F[0] = 0; // F[i] will store the ith number in Fibonacci sequence => THERE IS NO F[0]
 
     for (int i=1; i<=size; i++) {
 
