@@ -48,12 +48,12 @@ int main () {
 
     for (int i=0 ; i<n ; i++) {
 
-        cout << cls[i].name << "\t" << cls[i].rollno << "\t" << cls[i].sex << "\t" << cls[i].height << "\t" << cls[i].weight << "\n";
+        cout << cls[i].name << "\t" << cls[i].rollno << "\t" << cls[i].sex << "\t" << cls[i].height << "\t" << cls[i].weight << endl;
     }
 
     /* Task b */
 
-    float sum_of_heights = 0, sum_of_weights = 0, average_height, average_weight;
+    float sum_of_heights = 0, sum_of_weights = 0, average_height = 0, average_weight = 0;
 
     for (int i=0; i<n; i++) {
 
@@ -66,7 +66,7 @@ int main () {
 
     cout << "Average height: " << average_height << endl;
 
-    cout << "Average weight: " << average_weight;
+    cout << "Average weight: " << average_weight << endl;
 
     return 0;
 }
