@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
 
-    int n;
+    int n = 0;
 
-    float num, sum = 0, average;
+    float num = 0, sum = 0, average = 0;
 
     cout << "How many real numbers: ";
     cin >> n;
@@ -20,7 +20,7 @@ int main() {
 
     average = sum / n;
 
-    cout << "The average value: " << average;
+    cout << "The average value: " << average << endl;
 
     return 0;
 }
