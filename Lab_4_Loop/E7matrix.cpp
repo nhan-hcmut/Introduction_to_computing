@@ -34,7 +34,7 @@ int main() {
 
             cout << transposed_matrix[i][j] << "\t";
         }
-        cout << "\n";
+        cout << endl;
     }
     return 0;
 }
