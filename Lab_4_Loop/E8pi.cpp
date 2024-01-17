@@ -25,7 +25,7 @@ int main() {
     
     while (abs(addend*4) >= 0.000001);
 
-    cout << "Pi = " << sum*4;
+    cout << "Pi = " << sum*4 << endl;
 
     return 0;
 }
