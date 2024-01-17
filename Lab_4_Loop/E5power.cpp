@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    int base, power, result=1; // Result = 1 in case of power = 0
+    int base = 0, power = 0, result = 1; // Result = 1 in case of power = 0
 
     cout << "Base number: ";
     cin >> base;
@@ -16,12 +16,12 @@ int main() {
     }
 
     if (power == 0) { // To remove the output "Base number raised to the power of -0"
-        cout << base << " raised to the power of 0 = 1";
+        cout << base << " raised to the power of 0 = 1\n";
     }
 
     else {
         cout << base << " raised to the power of " << power << " = " << result << endl
-        << base << " raised to the power of -" << power << " = " << 1.0/result;
+        << base << " raised to the power of -" << power << " = " << 1.0 / result << endl;
     }
 
     return 0;
