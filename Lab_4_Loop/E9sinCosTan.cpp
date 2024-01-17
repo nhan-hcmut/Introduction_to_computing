@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     const double PI = 3.14159265359;
 
-    long long x; // Degree of angles
+    long long x = 0; // Degree of angles
 
     for (x=5; x<=85; x+=5) {
         
