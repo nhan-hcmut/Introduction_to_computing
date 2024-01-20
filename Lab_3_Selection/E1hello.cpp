@@ -1,7 +1,7 @@
 /*
-Requirement: Ask users where they are from, then greet them with "Hello" in their language.
+Requirements: Ask users where they are from, then greet them with "Hello" in their language.
 <br>
-Constraint: Use if-else statements. Do not use switch-case.
+Constraints: Use if-else statements. Do not use switch-case.
 <br>
 Example:
 Where are you from?
@@ -19,7 +19,7 @@ int main() {
     char country = '\0';
 
     cout << "Where are you from? (Enter a character to answer)\n"
-    << "A: America, B: Britain, C: China, F: France, G: Germany, I: Italia, J: Japan, K: Korea, S: Spain, V: Vietnam\n"
+    << "A: America, B: Britain, C: China, F: France, G: Germany, I: Italia, J: Japan, K: Korea, R: Russia, S: Spain, V: Vietnam\n"
     << "Or press q to quit\n";
     
     cin >> country;
@@ -58,6 +58,9 @@ int main() {
     else if (country == 'K' || country == 'k')
         cout<<"Annyeong haseyo\n";
     
+    else if (country == 'R' || country == 'r')
+        cout<<"Privyet\n";
+    
     else if (country == 'S' || country == 's')
         cout<<"Hola\n";
     
@@ -71,7 +74,7 @@ int main() {
 
 bool isValidInput(char ch) {
     
-    if (ch=='A' || ch=='a' || ch=='B' || ch=='b' || ch=='C' || ch=='c' || ch=='F' || ch=='f' || ch=='G' || ch=='g' || ch=='I' || ch=='i' || ch=='J' || ch=='j' || ch=='K' || ch=='k' || ch=='S' || ch=='s' || ch=='V' || ch=='v')
+    if (ch=='A' || ch=='a' || ch=='B' || ch=='b' || ch=='C' || ch=='c' || ch=='F' || ch=='f' || ch=='G' || ch=='g' || ch=='I' || ch=='i' || ch=='J' || ch=='j' || ch=='K' || ch=='k' || ch=='R' || ch=='r' || ch=='S' || ch=='s' || ch=='V' || ch=='v')
         return true;
     else
         return false;
