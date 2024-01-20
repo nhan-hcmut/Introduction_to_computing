@@ -1,5 +1,5 @@
 # Introduction_to_computing
-## Introduction to computing (CO1005) - HCMUT (Ho Chi Minh City University of Technology) - Semester 1 / Academic year 2022->2023 (HK221)
+Introduction to computing (CO1005) - HCMUT (Ho Chi Minh City University of Technology) - Semester 1 / Academic year 2022->2023 (HK221)
 
 ### 1/ What does this project do?
 Doing some exercises in my computer engineering class.
