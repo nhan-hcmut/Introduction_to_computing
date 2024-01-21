@@ -3,25 +3,25 @@ using namespace std;
 
 int main() {
 
-    int grade;
+    int grade = 0;
 
     cout << "Grade: ";
     cin >> grade;
 
     if (grade >= 90) {
-        cout << "A";
+        cout << "A\n";
     }
     else if (grade >= 80) {
-        cout << "B";
+        cout << "B\n";
     }
     else if (grade >= 70) {
-        cout << "C";
+        cout << "C\n";
     }
     else if (grade >= 60) {
-        cout << "D";
+        cout << "D\n";
     }
     else {
-        cout << "F";
+        cout << "F\n";
     }
     
     return 0;
