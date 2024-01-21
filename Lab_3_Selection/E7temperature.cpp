@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
 
-    float fahrenheit, celsius;
-    int selection;
+    float fahrenheit = 0, celsius = 0;
+    int selection = 0;
 
     cout << "Press 1 to convert Fahrenheit to Celsius.\n"
     << "Press 2 to convert Celsius to Fahrenheit.\n"
@@ -20,7 +20,7 @@ int main() {
             cout << "Fahrenheit: ";
             cin >> fahrenheit;
             celsius = (5.0/9) * (fahrenheit-32);
-            cout << celsius << " degrees Celsius.";
+            cout << celsius << " degrees Celsius.\n";
             break;
         
         case 2 :
@@ -28,11 +28,11 @@ int main() {
             cout << "Celsius: ";
             cin >> celsius;
             fahrenheit = (9.0/5) * celsius + 32;
-            cout << fahrenheit << " degrees Fahrenheit.";
+            cout << fahrenheit << " degrees Fahrenheit.\n";
             break;
         
         default :
-            cout << "Exit";
+            cout << "Exit\n";
     }
     return 0;
 }
