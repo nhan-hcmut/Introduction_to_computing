@@ -3,16 +3,16 @@ using namespace std;
 
 int main() {
 
-    int num;
+    int num = 0;
 
     cout << "Enter a number: ";
     cin >> num;
 
     if (num%2 == 0) {
-        cout << "Even";
+        cout << "Even\n";
     }
     else {
-        cout << "Odd";
+        cout << "Odd\n";
     }
 
     return 0;
