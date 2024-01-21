@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
 
-    int num;
-    float average;
+    int num = 0;
+    float average = 0;
 
     // This program uses ONLY 2 variables => no loop
 
@@ -28,7 +28,7 @@ int main() {
     cin >> num;
     average += float(num)/5;
 
-    cout << "Average: " << average;
+    cout << "Average: " << average << endl;
     
     return 0;
 }
