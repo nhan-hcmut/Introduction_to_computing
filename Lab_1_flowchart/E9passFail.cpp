@@ -15,9 +15,9 @@ int main() {
         i++;
     }
 
-    if (average >= 60) cout << "Pass";
+    if (average >= 60) cout << "Pass\n";
 
-    else cout << "Fail";
+    else cout << "Fail\n";
 
     return 0;
 }
