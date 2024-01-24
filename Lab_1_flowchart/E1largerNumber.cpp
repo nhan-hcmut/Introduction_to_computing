@@ -11,14 +11,14 @@ int main() {
     cout << "Enter the second number: ";
     cin >> y;
 
-    if (x > y) {
+    if (x >= y) {
         max = x;
     }
     else {
         max = y;
     }
 
-    cout << "The larger number is " << max;
+    cout << "The larger number is " << max << endl;
 
     return 0;
 }
