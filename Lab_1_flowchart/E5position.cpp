@@ -24,12 +24,12 @@ int main() {
     distance = sqrt( (x-x0) * (x-x0) + (y-y0) * (y-y0) );
 
     if (distance == r) {
-        cout << "Point A is on the circle.";
+        cout << "Point A is on the circle.\n";
     }
     else if (distance < r) {
-        cout << "Point A is inside the circle.";
+        cout << "Point A is inside the circle.\n";
     }
-    else cout << "Point A is outside the circle.";
+    else cout << "Point A is outside the circle.\n";
 
     return 0;
 }
