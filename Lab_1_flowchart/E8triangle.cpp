@@ -15,22 +15,22 @@ int main() {
     cin >> edge3;
 
     if ((edge1 >= edge2+edge3) || (edge2 >= edge1+edge3) || (edge3 >= edge1+edge2)) {
-        cout << "Not a triangle.";
+        cout << "Not a triangle.\n";
     }
 
     else if (edge1==edge2 && edge2==edge3) {
-        cout << "Equilateral";
+        cout << "Equilateral\n";
     }
     else if (edge1==edge2 || edge2==edge3 || edge3==edge1) {
 
-        if ((edge1*edge1) == (edge2*edge2 + edge3*edge3) || (edge2*edge2) == (edge1*edge1 + edge3*edge3) || (edge3*edge3) == (edge1*edge1 + edge2*edge2)) cout << "Isosceles right-angled";
+        if ((edge1*edge1) == (edge2*edge2 + edge3*edge3) || (edge2*edge2) == (edge1*edge1 + edge3*edge3) || (edge3*edge3) == (edge1*edge1 + edge2*edge2)) cout << "Isosceles right-angled\n";
 
-        else cout << "Isosceles";
+        else cout << "Isosceles\n";
     }
 
-    else if ((edge1*edge1) == (edge2*edge2 + edge3*edge3) || (edge2*edge2) == (edge1*edge1 + edge3*edge3) || (edge3*edge3) == (edge1*edge1 + edge2*edge2)) cout << "Right-angled";
+    else if ((edge1*edge1) == (edge2*edge2 + edge3*edge3) || (edge2*edge2) == (edge1*edge1 + edge3*edge3) || (edge3*edge3) == (edge1*edge1 + edge2*edge2)) cout << "Right-angled\n";
 
-    else cout << "Scalene";
+    else cout << "Scalene\n";
     
     return 0;
 }
