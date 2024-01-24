@@ -15,7 +15,7 @@ int main() {
 
     cout << "Diameter: " << d << endl
     << "Circumference: " << p << endl
-    << "Area: " << s;
+    << "Area: " << s << endl;
 
     return 0;
 }
