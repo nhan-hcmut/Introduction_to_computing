@@ -20,7 +20,7 @@ int main() {
 
     average = sum / n;
 
-    cout << "Average: " << average;
+    cout << "Average: " << average << endl;
 
     return 0;
 }
