@@ -14,12 +14,12 @@ int main() {
     cout << "The third number: ";
     cin >> third_num;
 
-    if (first_num < second_num) min = first_num;
+    if (first_num <= second_num) min = first_num;
     else min = second_num;
 
     if (third_num < min) min = third_num;
     
-    cout << "The smallest number: " << min;
+    cout << "The smallest number: " << min << endl;
 
     return 0;
 }
