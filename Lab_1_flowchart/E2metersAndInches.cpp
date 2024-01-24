@@ -19,7 +19,7 @@ int main() {
 
         m = a*2.54/100;
 
-        cout << m <<" meters";
+        cout << m <<" meters\n";
     }
 
     else {
@@ -29,7 +29,7 @@ int main() {
 
         inc = a*100/2.54;
 
-        cout << inc << " inches";
+        cout << inc << " inches\n";
     }
     return 0;
 }
