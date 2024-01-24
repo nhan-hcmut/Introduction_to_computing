@@ -27,20 +27,20 @@ int main() {
     }
     /* Start solving quadratic equation from here */
     else if (delta < 0) {
-        cout << "There are no real roots.";
+        cout << "There are no real roots.\n";
     }
     else if (delta == 0) {
 
-        if ((-b / (2*a)) == 0) cout << "Root = 0"; // Remove the output "Root = -0"
+        if ((-b / (2*a)) == 0) cout << "Root = 0\n"; // Remove the output "Root = -0"
 
-        else cout << "Root = " << -b / (2*a);
+        else cout << "Root = " << -b / (2*a) << endl;
     }
     else {
         root1 = (-b + sqrt(delta)) / (2*a);
         root2 = (-b - sqrt(delta)) / (2*a);
 
         cout << "The first root = " << root1 << endl
-        << "The second root = " << root2;
+        << "The second root = " << root2 << endl;
     }
 
     return 0;
