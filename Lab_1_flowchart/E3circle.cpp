@@ -4,18 +4,18 @@ using namespace std;
 
 int main() {
 
-    float r = 0, d = 0, p = 0, s = 0;
+    float radius = 0, diameter = 0, circumference = 0, area = 0;
 
     cout << "Radius: ";
-    cin >> r;
+    cin >> radius;
 
-    d = 2*r;
-    p = 2*PI*r;
-    s = PI*r*r;
+    diameter = 2 * radius;
+    circumference = 2 * PI * radius;
+    area = PI * raius * radius;
 
-    cout << "Diameter: " << d << endl
-    << "Circumference: " << p << endl
-    << "Area: " << s << endl;
+    cout << "Diameter: " << diameter << endl
+    << "Circumference: " << circumfernce << endl
+    << "Area: " << area << endl;
 
     return 0;
 }
