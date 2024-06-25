@@ -3,33 +3,33 @@ using namespace std;
 
 int main() {
 
-    float a = 0, m = 0, inc = 0;
+    float inches = 0, meters = 0;
     int sel = 0;
 
     cout << "Press 1: Inches to meters" << endl
     << "Press another number: Meters to inches" << endl
-    << "Enter a number: ";
+    << "Selection: ";
     
     cin >> sel;
 
     if (sel == 1) {
 
         cout << "Inches: ";
-        cin >> a;
+        cin >> inches;
 
-        m = a*2.54/100;
+        meters = inches * 2.54 / 100;
 
-        cout << m <<" meters\n";
+        cout << meters <<" meters\n";
     }
 
     else {
 
         cout << "Meters: ";
-        cin >> a;
+        cin >> meters;
 
-        inc = a*100/2.54;
+        inches = meters * 100 / 2.54;
 
-        cout << inc << " inches\n";
+        cout << inches << " inches\n";
     }
     return 0;
 }
