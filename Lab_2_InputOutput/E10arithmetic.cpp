@@ -15,7 +15,11 @@ int main() {
     addition = num1+num2;
     subtraction = num1-num2;
     multiplication = num1*num2;
-    division = (float)num1 / (float)num2;
+    
+    if (num2 != 0) {
+        division = (float)num1 / (float)num2;
+    }
+    
     int i = 1;
     while (i <= num2) {
         exponentiation *= num1;
@@ -25,7 +29,12 @@ int main() {
     cout << "Sum: " << addition << endl;
     cout << "Difference: " << subtraction << endl;
     cout << "Product: " << multiplication << endl;
-    cout << "Quotient: " << division << endl;
+    if (num2 != 0) {
+        cout << "Quotient: " << division << endl;
+    }
+    else {
+        cout << "Quotient: undefined because the second integer is 0\n";
+    }
     cout << num1 << " raised to the power of " << num2 << ": " << exponentiation << endl;
     
     return 0;
