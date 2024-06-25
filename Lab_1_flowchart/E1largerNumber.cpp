@@ -11,7 +11,7 @@ int main() {
     cout << "Enter the second number: ";
     cin >> y;
 
-    if (x >= y) {
+    if (x > y) {
         max = x;
     }
     else {
